@@ -1,5 +1,5 @@
 #include <iostream>
-//#include "vehicle.hpp"
+#include "vehicle.hpp"
 #include "tank.hpp"
 
 int main() {
@@ -13,10 +13,10 @@ int main() {
 
 	Tank t1;
 	t1.change_model("M4 Sherman");
-	t1.add_missile(20);
+	t1.add_missiles(20);
 	t1.fire_missiles();
 	std::cout << t1 << '\n';
-	t1.add_missile(10);
+	t1.add_missiles(10);
 	t1.fire_missiles(5);
 	std::cout << t1 << '\n';
 
